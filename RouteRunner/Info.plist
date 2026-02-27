@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Route Runner Needs your location to generate running routes</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Route Runner needs your location for navigation during runs</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.drake.RouteRunner</string>
+	<key>CFBundleExecutable</key>
+	<string>RouteRunner</string>
+</dict>
+</plist>
