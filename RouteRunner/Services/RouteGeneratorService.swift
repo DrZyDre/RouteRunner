@@ -224,6 +224,12 @@ class RouteGeneratorService {
                 return
             }
             
+            let polyline = MKPolyline(coordinates: allCoordinates, count: allCoordinates.count)
+            if self.routeHasDeadEndTail(polyline) {
+                completion(nil)
+                return
+            }
+            
             let routeModel = Route(
                 startLocation: waypoints[0],
                 routeType: routeType,
